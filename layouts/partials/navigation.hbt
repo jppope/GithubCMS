@@ -1,0 +1,6 @@
+<div class="navigation">
+  <div>
+    <a class="button" href="/">Home</a>
+    <a class="button" href="/about">About</a>
+  </div>
+</div>

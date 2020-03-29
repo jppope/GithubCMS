@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+      /* Keeping it simple for the tutorial */
+      body {
+        font-family: 'Avenir', Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        color: #2c3e50;
+        margin-top: 60px;
+      }
+      .navigation {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 1rem;
+      }
+      .button {
+        margin: 1rem;
+        border: solid 1px #ccc;
+        border-radius: 4px;        
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    {{>navigation }}
+    <div>
+			{{{contents}}}
+    </div>
+  </body>
+</html>
